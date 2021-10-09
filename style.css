@@ -1,0 +1,44 @@
+#head{
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+#note{
+    font-size: 17px;
+}
+.disk{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed1{
+    float: left;
+}
+#volume1{
+    float: right;
+}
+.vol{
+    font-size: 23px;
+    margin: 15px;
+}
+#play{
+    width: 130px;
+    font-size: 25px;
+}
+canvas{
+    border-radius: 20px;
+    animation-name: animate;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    
+}
+@keyframes animate{
+from{
+    border: 5px solid white;
+}
+to{
+    border: 15px solid black;
+}
+}
+body{
+    background-size: cover;
+}
